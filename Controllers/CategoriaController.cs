@@ -17,13 +17,13 @@ namespace Controllers
             return categoriaDao.listarCategorias(buscar);
         }
 
-        public void AgregarCategoria(Categoria categoria)
+        public int AgregarCategoria(Categoria categoria)
         {
-            categoriaDao.agregarCategoria(categoria);
+            return categoriaDao.agregarCategoria(categoria);
         }
-        public void EditarCategoria(Categoria categoria)
+        public int EditarCategoria(Categoria categoria)
         {
-            categoriaDao.editarCategoria(categoria);
+           return categoriaDao.editarCategoria(categoria);
         }
     }
 }

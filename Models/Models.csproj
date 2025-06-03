@@ -44,6 +44,8 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Dao\CategoriaDao.cs" />
     <Compile Include="Dao\ConnectionToSQL.cs" />
+    <Compile Include="Dao\MedidaDao.cs" />
+    <Compile Include="Dao\ProductoDao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

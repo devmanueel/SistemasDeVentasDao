@@ -42,7 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CategoriaController.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="MedidaController.cs" />
+    <Compile Include="ProductoController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

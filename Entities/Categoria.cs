@@ -17,6 +17,21 @@ namespace Entities
         public Medida oMedida { get; set; }
         public int Activo { get; set; }
 
+        public string MedidaNombre
+        {
+            get
+            {
+                return oMedida.Nombre;
+            }
+        }
+        
+        public string Habilitado
+        {
+            get
+            {
+                return Activo == 1 ? "SI" : "NO";
+            }
+        }
 
 
     }
